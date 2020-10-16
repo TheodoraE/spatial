@@ -1,0 +1,59 @@
+.section1
+    font-family: "Roboto"
+    display: flex
+    justify-content: space-between
+    padding: 5% 20%
+    .titre1
+        width: 40%
+        line-height: 1.5
+        h1
+            margin: 0%
+            font-size: 50px
+            color: $grisfoncé
+        h2
+            font-weight: $light
+            font-size: 30px
+            color: $gris
+    .texte1
+        color: $gris
+        width: 40%
+        p
+            line-height: 2
+// Fin Section 1
+
+
+@media screen and (min-width: 320px) and (max-width: 599px)
+    .section1
+        display: flex
+        flex-direction: column
+        text-align: center
+        margin: 2% 0%
+        .titre1
+            width: 100%
+            h1
+                font-size: 24px
+            h2
+                font-size: 18px
+        .texte1
+            width: 100%
+            p
+                margin: 0%
+
+
+@media screen and (min-width: 600px) and (max-width: 1023px)
+    .section1
+        display: flex
+        flex-direction: column
+        text-align: center
+        .titre1
+            width: 100%
+            h1
+                font-size: 24px
+                margin: 5%
+            h2
+                font-size: 18px
+                margin: 5%
+        .texte1
+            width: 100%
+            p
+                margin: 0%
