@@ -2,52 +2,56 @@ body
     margin: 0%
     font-family: "Roboto"
     header
-        background-image: url(../images/banner.jpg)
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../public/images/banner.jpg")
         background-repeat: no-repeat
         background-size: cover
         background-position: fixed
-        color: white
-        height: 400px
-        // background: linear-gradient {rgba(0, 0, 0, 0.45)), url("../../public/images/banner.jpg")}
+        color: $blanc
+        height: 800px
+        background: linear-gradient(rgba(0, 0, 0, 0.45))
         nav
             display: flex
             justify-content: space-between
-            padding: 2% 
+            align-items: center
+            padding: 3% 
+            font-size: 20px
             .nav1
                 span
-                    font-weight: bolder
+                    font-weight: $bold
             .nav2
                 flex: 1
                 display: flex
                 justify-content: flex-end
                 a
-                    margin: 0% 1%
+                    margin: 0% 3%
                     text-decoration: none
-                    color: white
+                    color: $grisclair
+                a:hover
+                    color: $blanc
         .spatial
-            // width: 25%
             display: flex
             flex-direction: column
             align-items: center
+            justify-content: center
             text-align: center
-            // padding-top: 7%
-            // padding-bottom: 15%
+            padding: 4% 0%
             line-height: 2
-
             h1
                 font-size: 60px
+                font-weight: $bold
                 margin: 0%
             p
-                text-transform: Uppercase
-                margin-top: 0%
-                font-size: 22px
+                text-transform: $Maj
+                margin: 0% 35% 2% 35%
+                font-size: 24px
             button
-                color: white
+                color: $blanc
                 font-size: 22px
-                font-weight: bold
-                background-color: #f24b4b
+                font-weight: $bold
+                background-color: $rougeclair
                 border: none
-                border-radius: 2px
+                border-radius: 4px
                 padding: 1% 2%
             button:hover
                 filter: brightness(2)
+// fin header
