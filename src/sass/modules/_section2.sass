@@ -18,10 +18,13 @@
         display: flex
         justify-content: center
         color: $grisfoncé
+        padding: 0% 10%
         .img
             box-shadow: lightgray 0 0 6px
-            margin: 1%
+            margin: 2%
+            flex: 1
             img
+                width: 100%
             .legende
                 h3
                     text-transform: $Maj
@@ -33,24 +36,18 @@
     .boutons
         display: flex
         justify-content: center
-        padding: 1% 0% 4% 0%
-        button:first-of-type
+        padding: 1% 35% 4% 35%
+        button
+            flex: 1
             color: $blanc
             font-size: 22px
             font-weight: $bold
             background-color: $couleurboutton1
             border: none
-            border-radius: 4px
-            padding: 1% 2%
-            margin: 0.5%
+            border-radius: 5px
+            padding: 4% 2%
+            margin: 2%
         button:last-child
-            color: $blanc
-            font-size: 22px
-            font-weight: $bold
             background-color: $grisfoncé
-            border: none
-            border-radius: 4px
-            padding: 1% 2%
-            margin: 0.5%
         button:hover
             filter: brightness(2)

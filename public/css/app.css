@@ -6360,11 +6360,17 @@ body header .spatial button:hover {
   display: flex;
   justify-content: center;
   color: #554c4c;
+  padding: 0% 10%;
 }
 
 .section2 .images .img {
   box-shadow: lightgray 0 0 6px;
-  margin: 1%;
+  margin: 2%;
+  flex: 1;
+}
+
+.section2 .images .img img {
+  width: 100%;
 }
 
 .section2 .images .img .legende h3 {
@@ -6379,29 +6385,23 @@ body header .spatial button:hover {
 .section2 .boutons {
   display: flex;
   justify-content: center;
-  padding: 1% 0% 4% 0%;
+  padding: 1% 35% 4% 35%;
 }
 
-.section2 .boutons button:first-of-type {
+.section2 .boutons button {
+  flex: 1;
   color: #ffffff;
   font-size: 22px;
   font-weight: bolder;
   background-color: #f24b4b;
   border: none;
-  border-radius: 4px;
-  padding: 1% 2%;
-  margin: 0.5%;
+  border-radius: 5px;
+  padding: 4% 2%;
+  margin: 2%;
 }
 
 .section2 .boutons button:last-child {
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: bolder;
   background-color: #554c4c;
-  border: none;
-  border-radius: 4px;
-  padding: 1% 2%;
-  margin: 0.5%;
 }
 
 .section2 .boutons button:hover {
@@ -6435,11 +6435,12 @@ body header .spatial button:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 5%;
+  padding: 0% 22%;
 }
 
 .section3 .cards .c1 {
   display: flex;
-  width: 35%;
+  flex: 2;
   margin: 0.5%;
 }
 
